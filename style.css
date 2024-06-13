@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  background: #341B00;
+  font-size: 16px;
+
+  display: flex;
+  flex-flow: column;
+  grid-gap: 3rem;
+  padding: 3rem;
+
+  header {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+
+    img {
+      width: 300px;
+    }
+  }
+
+  .celebrate {
+    max-width: 70%;
+    height: auto;
+  }
+
+  main {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+  }
+}
