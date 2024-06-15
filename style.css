@@ -6,15 +6,17 @@
 
 img {
   max-width: 100%;
+  height: auto;
 }
 
 body {
-  background: #341B00;
+  background: #d3c5a6;
+  color: white;
   font-size: 16px;
 
   display: flex;
   flex-flow: column;
-  grid-gap: 3rem;
+  gap: 3rem;
   padding: 3rem;
 
   header {
@@ -27,14 +29,20 @@ body {
     }
   }
 
-  .celebrate {
-    max-width: 70%;
-    height: auto;
-  }
-
   main {
     display: flex;
     flex-flow: column;
     align-items: center;
+
+    section {
+      display: flex;
+      flex-flow: column;
+      width: 100%;
+      gap: 3rem;
+
+      img {
+        align-self: center;
+      }
+    }
   }
 }
