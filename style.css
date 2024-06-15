@@ -38,6 +38,11 @@ body {
     display: flex;
     flex-flow: column;
     align-items: center;
+    gap: 3rem;
+
+    .menu {
+      box-shadow: 0 0 3rem rgb(0 0 0 / 20%);
+    }
 
     section {
       display: flex;
