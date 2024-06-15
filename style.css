@@ -24,6 +24,7 @@ body {
     flex-flow: column;
     align-items: center;
     min-height: 100vh;
+    color: #b59e7e;
 
     img {
       /* width: 300px; */
