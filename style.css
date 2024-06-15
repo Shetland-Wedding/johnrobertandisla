@@ -23,9 +23,14 @@ body {
     display: flex;
     flex-flow: column;
     align-items: center;
+    min-height: 100vh;
 
     img {
-      width: 300px;
+      /* width: 300px; */
+    }
+
+    p {
+      font-size: 10rem;
     }
   }
 
