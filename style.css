@@ -82,6 +82,7 @@ body {
 
       label {
         font-size: 1.25em;
+        transition: color 600ms;
 
         input[type=radio] {
           display: none;
