@@ -1,15 +1,3 @@
-@font-face {
-  font-family: 'Linotype Didot Std Roman';
-  src: url('DidotLTStd-Roman.eot');
-  src: local('Linotype Didot Std Roman'), local('DidotLTStd-Roman'),
-    url('DidotLTStd-Roman.eot?#iefix') format('embedded-opentype'),
-    url('DidotLTStd-Roman.woff2') format('woff2'),
-    url('DidotLTStd-Roman.woff') format('woff'),
-    url('DidotLTStd-Roman.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-
 * {
   box-sizing: border-box;
   margin: 0;
@@ -26,6 +14,7 @@ body {
   color: white;
   font-size: 16px;
   font-family: Linotype Didot Std Roman, serif;
+  line-height: 1.3;
 
   display: flex;
   flex-flow: column;
@@ -68,15 +57,21 @@ body {
     }
 
     h2 {
+      font-family: Linotype Didot Pro, serif;
       font-size: 5rem;
+      font-weight: 700;
     }
 
     h3 {
+      font-family: Linotype Didot Pro, serif;
       font-size: 4rem;
+      font-weight: 700;
     }
 
     h4 {
+      font-family: Linotype Didot Pro, serif;
       font-size: 3rem;
+      font-weight: 700;
     }
 
     .guest {
