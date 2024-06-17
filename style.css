@@ -80,6 +80,20 @@ body {
       font-size: 2em;
       gap: 1rem;
 
+      input[type=text] {
+        color: #594f4f;
+        background: transparent;
+        border: none;
+        border-bottom: 1px solid;
+        font-size: 1em;
+        max-width: 100%;
+
+        &:focus-visible {
+          border: none;
+          border-bottom: 1px solid;
+        }
+      }
+
       label {
         font-size: 1.25em;
         transition: color 600ms;
