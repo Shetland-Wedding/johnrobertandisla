@@ -45,6 +45,10 @@ body {
       box-shadow: 0 0 3rem rgb(0 0 0 / 20%);
     }
 
+    p {
+      font-size: 1.5em;
+    }
+
     section {
       display: flex;
       flex-flow: column;
@@ -76,7 +80,12 @@ body {
       font-family: Linotype Didot Pro, serif;
       font-size: 4rem;
       font-weight: 700;
-      text-decoration: underline;
+    }
+
+    @media (max-width: 800px) {
+      h3 {
+        font-size: 3rem;
+      }
     }
 
     h4 {
@@ -144,6 +153,7 @@ body {
       display: grid;
       gap: 2rem 1rem;
       grid-template-columns: 1fr;
+      margin-top: 2em;
 
       & h4 {
         border-bottom: 1px solid;
