@@ -87,6 +87,8 @@ body {
         border-bottom: 1px solid;
         font-size: 1em;
         max-width: 100%;
+        font-family: Linotype Didot Std Roman, serif;
+        font-weight: 700;
 
         &:focus-visible {
           border: none;
