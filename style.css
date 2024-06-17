@@ -80,6 +80,7 @@ body {
     .guest {
       max-width: 75rem;
       font-size: 2em;
+      gap: 1rem;
 
       label {
         font-size: 1.25em;
