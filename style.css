@@ -60,18 +60,21 @@ body {
       font-family: Linotype Didot Pro, serif;
       font-size: 5rem;
       font-weight: 700;
+      padding: 0.25em 0;
     }
 
     h3 {
       font-family: Linotype Didot Pro, serif;
       font-size: 4rem;
       font-weight: 700;
+      padding: 0.25em 0;
     }
 
     h4 {
       font-family: Linotype Didot Pro, serif;
       font-size: 3rem;
       font-weight: 700;
+      padding: 0.25em 0;
     }
 
     .guest {
