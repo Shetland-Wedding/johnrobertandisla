@@ -40,10 +40,6 @@ body {
     min-height: calc(100vh - 3rem);
     color: #b59e7e;
 
-    img {
-      /* width: 300px; */
-    }
-
     p {
       font-size: 12vw;
     }
@@ -54,6 +50,7 @@ body {
     flex-flow: column;
     align-items: center;
     gap: 3rem;
+    color: #594f4f;
 
     .menu {
       box-shadow: 0 0 3rem rgb(0 0 0 / 20%);
