@@ -56,6 +56,11 @@ body {
       }
     }
 
+    form {
+      max-width: 75em;
+      font-size: 2em;
+    }
+
     h2 {
       font-family: Linotype Didot Pro, serif;
       font-size: 5rem;
@@ -76,8 +81,6 @@ body {
     }
 
     .guest {
-      max-width: 75rem;
-      font-size: 2em;
       gap: 1rem;
 
       input[type=text] {
