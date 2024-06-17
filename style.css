@@ -95,6 +95,15 @@ body {
       }
     }
 
+    .choices {
+      display: grid;
+      gap: 2rem 1rem;
+      grid-template-columns: 8em 1fr;
+    }
+
+    .options {
+      display: grid;
+      flex-flow: column;
     }
   }
 }

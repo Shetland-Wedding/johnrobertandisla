@@ -5,6 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="font/stylesheet.css">
   <title>John Robert &amp; Isla | Shetland Wedding</title>
 </head>
 
@@ -16,7 +17,51 @@
   </header>
   <main>
     <img class=menu src="menu.png" alt="Let's Celebrate" width=1289 height=406>
-
+    <h2>Guests</h2>
+    <section class="guest">
+      <h3>Guest One</h2>
+        <label>Name: <input type="text"></label>
+        <div>Will they be attending?
+          <label>No<input type="radio" name=attending value=No /></label>
+          /
+          <label>Yes<input type="radio" name=attending value=Yes /></label>
+        </div>
+        <h3>Menu Choices</h3>
+        <div class=choices>
+          <div>
+            <h4>Starter</h4>
+          </div>
+          <div class=options>
+            <label><input type="radio" name=starter checked />None</label>
+            <label><input type="radio" name=starter />Bacon and Cheese Loaded Potato Skins</label>
+            <label><input type="radio" name=starter />Chicken Ceaser Salad</label>
+            <label><input type="radio" name=starter checked />Bairns Choice</label>
+          </div>
+          <div>
+            <h4>Main</h4>
+          </div>
+          <div class=options>
+            <label><input type="radio" name=main checked />None</label>
+            <label><input type="radio" name=main />Roast Beef with Yorkshire
+              Pudding</label>
+            <label><input type="radio" name=main />Oatmeal Stuffed Chicken
+              Wrapped in Bacon</label>
+            <label><input type="radio" name=main checked />Bairns Choice</label>
+          </div>
+          <div>
+            <h4>Dessert</h4>
+          </div>
+          <div class=options>
+            <label><input type="radio" name=dessert checked />None</label>
+            <label><input type="radio" name=dessert />Mini Pavlova with Summer
+                Berries</label>
+            <label><input type="radio" name=dessert />Sticky Toffee Pudding with
+                Shetland Cream</label>
+            <label><input type="radio" name=dessert checked />Bairns Choice</label>
+          </div>
+        </div>
+    </section>
+    <hr>
   </main>
 </body>
 
