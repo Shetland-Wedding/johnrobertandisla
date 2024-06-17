@@ -18,8 +18,8 @@ body {
 
   display: flex;
   flex-flow: column;
-  gap: 3rem;
-  padding: 3rem;
+  gap: 1rem;
+  padding: 1rem;
 
   header {
     display: flex;
@@ -60,21 +60,19 @@ body {
       font-family: Linotype Didot Pro, serif;
       font-size: 5rem;
       font-weight: 700;
-      padding: 0.25em 0;
     }
 
     h3 {
       font-family: Linotype Didot Pro, serif;
       font-size: 4rem;
       font-weight: 700;
-      padding: 0.25em 0;
+      text-decoration: underline;
     }
 
     h4 {
       font-family: Linotype Didot Pro, serif;
       font-size: 3rem;
       font-weight: 700;
-      padding: 0.25em 0;
     }
 
     .guest {
@@ -84,21 +82,39 @@ body {
 
       label {
         font-size: 1.25em;
-        cursor: pointer;
+
         input[type=radio] {
           display: none;
         }
-      }
 
-      label:has(input[type="radio"]:checked) {
-        color: #bf6211;
+        &:has(input[type=radio]) {
+          cursor: pointer;
+        }
+
+        &:has(input[type="radio"]:checked) {
+          color: #bf6211;
+        }
       }
     }
 
     .choices {
       display: grid;
       gap: 2rem 1rem;
-      grid-template-columns: 8em 1fr;
+      grid-template-columns: 1fr;
+
+      & h4 {
+        border-bottom: 1px solid;
+      }
+    }
+
+    @media (min-width: 800px) {
+      .choices {
+        grid-template-columns: 7em 1fr;
+
+        & h4 {
+          border-bottom: none;
+        }
+      }
     }
 
     .options {
