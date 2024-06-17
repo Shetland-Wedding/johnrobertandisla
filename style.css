@@ -41,7 +41,7 @@ body {
     gap: 3rem;
     color: #594f4f;
 
-    .menu {
+    .shadow {
       box-shadow: 0 0 3rem rgb(0 0 0 / 20%);
     }
 
@@ -63,6 +63,7 @@ body {
       display: flex;
       flex-flow: column;
       gap: 3rem;
+      margin-bottom: 3rem;
     }
 
     h2 {
@@ -82,6 +83,16 @@ body {
       font-family: Linotype Didot Pro, serif;
       font-size: 3rem;
       font-weight: 700;
+    }
+
+    button {
+      border: none;
+      align-self: center;
+      font-family: Linotype Didot Std Roman, serif;
+      font-weight: 700;
+      color: #b59e7e;
+      font-size: 4rem;
+      padding: 0.5em 1em;
     }
 
     .guest {
