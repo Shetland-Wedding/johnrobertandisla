@@ -98,6 +98,10 @@ body {
       }
     }
 
+    .attending {
+      text-wrap: nowrap;
+    }
+
     .choices {
       display: grid;
       gap: 2rem 1rem;
@@ -120,7 +124,7 @@ body {
 
     .options {
       display: grid;
-      flex-flow: column;
+      gap: 0.5em;
     }
   }
 }
