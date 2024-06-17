@@ -57,8 +57,10 @@ body {
     }
 
     form {
-      max-width: 75em;
+      width: 100%;
+      max-width: 60rem;
       font-size: 2em;
+      display: block;
     }
 
     h2 {
