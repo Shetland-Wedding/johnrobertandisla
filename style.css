@@ -79,6 +79,22 @@ body {
       font-size: 3rem;
     }
 
+    .guest {
+      max-width: 75rem;
+      font-size: 2em;
+
+      label {
+        font-size: 1.25em;
+        input[type=radio] {
+          display: none;
+        }
+      }
+
+      label:has(input[type="radio"]:checked) {
+        color: #bf6211;
+      }
+    }
+
     }
   }
 }
